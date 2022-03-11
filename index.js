@@ -20,7 +20,7 @@ window.addEventListener("load", async () => {
     const maxPriorityfeeperGas =
       data.blockPrices[0].estimatedPrices[0].maxPriorityFeePerGas;
 
-    console.log(maxFeePerGas, maxPriorityfeeperGas);
+    console.log(data, maxFeePerGas, maxPriorityfeeperGas);
   } catch (error) {
     console.error(error);
   }
